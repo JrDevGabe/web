@@ -31,8 +31,10 @@ header{
     width: 100%;
     background-color: #FFF;
     position: fixed;
+
     div{
         margin-top: 15px;
+        margin-left: 100px;
         a{
             text-decoration: none;
             font-size: 24px;
@@ -40,7 +42,6 @@ header{
             font-weight: 900;
         }
     }
-    margin-left: 100px;
     nav{
         flex: 1;
         margin-left: 62%;
@@ -56,6 +57,7 @@ header{
                 a{
                   display: inline-block;
                   text-decoration: none;
+                  color: #27275A;
                   font-weight: 500;
                 }
             }
