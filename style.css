@@ -5,6 +5,11 @@ body{
     
 }
 
+.social_icon_group{
+  margin: 15px 0;
+  margin-left: 990px;
+}
+
 .burner{
  background-image: url(images/abt.jpg);
  background-attachment: fixed;
@@ -17,10 +22,6 @@ body{
 
 .container{
  width: 100%;
-
-
-
-
 }
 .summary{
 
@@ -314,10 +315,6 @@ button{
 
 
 
-
-form{
-  padding-top: 2rem;
-}
 
 form h5{
   padding: 0;
