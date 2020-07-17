@@ -137,10 +137,30 @@ main{
 hr{
  color: #27275A;
  border: 2px solid;
+ margin-block-start: 0;
 }
 footer{
     color: #27275A;
-    margin-left: 100px;
+    margin-left: 0px;
     bottom: 0;
-    display: inline-block;
+    display: flex;
+    .social_icon_group{
+       white-space: normal;
+       font-size: 900;
+        opacity: 80%;
+         margin-left: 600px;
+       .quicknav{
+        margin-left: 25px;
+        color: #27275A;
+        font-weight: 500;
+        opacity: 65%;
+       }
+       .copyright{
+            margin-top: 30px !important;
+       }
+       .copyright:disabled{
+        background-color: #ffffff;
+       }
+
+    }
 }
