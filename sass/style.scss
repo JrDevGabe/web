@@ -20,9 +20,14 @@ body{
     justify-content: center;
     
 } 
-a:hover{
 
+h2{
+    padding-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
 }
+
 header{
     display: flex;
     height: 70px;
@@ -45,11 +50,12 @@ header{
     }
     nav{
         flex: 1;
-        margin-left: 62%;
+        margin-left: 67%;
         margin-top: 20px;
+        
         top:0;
         
-        ul{
+        ul{font-weight: 700;
             list-style: none;  
             margin: 0; 
             padding: 0;
@@ -81,6 +87,7 @@ button{
     border: none;
     font-size: 17px;
     color: #FFF;
+    cursor: alias;
     background-color: #27275A;
 }
 main{
@@ -119,13 +126,32 @@ main{
         text-align: center;
         margin-left: 300px;
         background-color: #27275A ;
-        h1{
-            text-align: 30%;
-            padding: 40px;
-            color:#FFF;
-        }
-
+                h2{
+                    color: #FFF;
+                }
         margin-bottom: 100px;
+    }
+    aside{
+        width: 300px;
+        .sponsor{
+
+            div{
+                p{
+                    margin-left: 38px;
+                    opacity: 50%;
+                    color: #27275A;
+                    font-size: 12px;
+                    bottom: 0;
+                }
+                a{
+                    img{
+                        margin-left: 45px;
+                        border-radius: 0;
+                        max-width: 120px;
+                    }
+                }
+            }
+        }
     }
     .contact {
         color: #2D3748;
@@ -133,7 +159,14 @@ main{
         text-align: center; 
         width: 588px;
         height: 296px;
-        margin-bottom: 245px;
+        margin-bottom: 100px;
+        article{
+            h2{
+                color: #27275A;
+                font-size: 36px;
+                padding-top: 60px;
+            }
+        }
     }
 }
 hr{
